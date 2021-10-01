@@ -1,0 +1,33 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <title> Piedra, papel o tijeras</title>
+    </head>
+    <body>
+        <header>
+            <h1>Piedra, papel o tijeras</h1>
+        </header>
+        <div class="scoreboard">
+            <div id="user-label" class="badge">User</div>
+            <div id="comp-label" class="badge">Computer</div>
+            <span id="user-score"> 0</span>: <span id="comp-score"> 0</span>
+        </div>
+        <div class="result">            
+            <p>Papel envuelve a piedra. Ganaste!</p>
+        </div>
+        <div class="choices">
+            <div class="choice" id="r">
+                <img src="https://cdn2.iconfinder.com/data/icons/valuable-items/200/minerals_coal-512.png" class="logo" alt="piedra"/>
+            </div>
+            <div class="choice" id="p">
+                <img src="https://icons-for-free.com/iconfiles/png/512/file+menu+page+paper+icon-1320165846955357008.png" class="logo" alt="papel"/>
+            </div>
+            <div class="choice" id="s">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Scissors_icon_black.svg/1024px-Scissors_icon_black.svg.png" class="logo" alt="tijeras"/>
+            </div>
+            <p id="action-message">Elige!</p>
+        </div>
+        
+        <script src="index.pack.js"></script>
+    </body>
+</html>
